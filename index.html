@@ -1,0 +1,3149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wole Tech — Software Development Company | Websites That Drive Sales</title>
+  <meta name="description"
+    content="Wole Tech is a software development company building fast, beautiful websites and landing pages that turn visitors into customers. 12+ sites shipped across aviation, energy, government and small business. Available for new projects." />
+  <meta name="keywords"
+    content="web developer, web designer, landing page designer, website developer Nigeria, freelance web developer, business website, conversion landing pages, Next.js developer, React developer, Wole Tech" />
+  <meta name="author" content="Wole Tech" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://davidaiyewumi.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wole Tech — Software Development Company" />
+  <meta property="og:description"
+    content="We design and build websites &amp; landing pages that turn visitors into customers. 12+ sites shipped. Available for new projects." />
+  <meta property="og:url" content="https://davidaiyewumi.com/" />
+  <meta property="og:image" content="https://davidaiyewumi.com/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Wole Tech — Software Development Company" />
+  <meta name="twitter:description" content="Websites &amp; landing pages that drive sales. 12+ sites shipped." />
+  <meta name="twitter:image" content="https://davidaiyewumi.com/og.png" />
+  <meta name="theme-color" content="#FBFAF7" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="image-slot.js"></script>
+
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Wole Tech",
+  "email":"mailto:davidaiyewumi1@gmail.com",
+  "telephone":"+2348057972435",
+  "url":"https://davidaiyewumi.com/",
+  "sameAs":["https://github.com/wolethescientist","https://linkedin.com/in/david-aiyewumi"],
+  "knowsAbout":["Web Development","Web Design","Landing Pages","Next.js","React","Conversion Optimization","SEO"],
+  "makesOffer":{
+    "@type":"Offer",
+    "itemOffered":{
+      "@type":"Service",
+      "name":"Web design & development",
+      "description":"Custom websites and landing pages built to convert visitors into customers."
+    }
+  }
+}
+</script>
+
+  <style>
+    :root {
+      --bg: #FBFAF7;
+      --cream: #F3EFE8;
+      --cream-2: #ECE6DB;
+      --ink: #16130E;
+      --ink-soft: #3A352D;
+      --muted: #736B5E;
+      --line: #E4DDD0;
+      --line-2: #D6CCBA;
+      --accent: #E0532A;
+      --accent-deep: #C2421E;
+      --accent-soft: #FBE7DD;
+      --white: #FFFFFF;
+      --r: 18px;
+      --shadow-sm: 0 1px 2px rgba(40, 30, 15, .04), 0 4px 14px rgba(40, 30, 15, .05);
+      --shadow: 0 8px 24px rgba(40, 30, 15, .07), 0 24px 60px rgba(40, 30, 15, .08);
+      --shadow-lg: 0 20px 50px rgba(40, 30, 15, .10), 0 50px 100px rgba(40, 30, 15, .12);
+      --maxw: 1240px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Hanken Grotesk', system-ui, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      font-weight: 400;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none
+    }
+
+    button {
+      font: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: inherit
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%
+    }
+
+    ::selection {
+      background: var(--accent);
+      color: #fff
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -.02em;
+      color: var(--ink)
+    }
+
+    .serif {
+      font-family: 'Instrument Serif', serif;
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: 0
+    }
+
+    .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0 28px
+    }
+
+    @media(max-width:640px) {
+      .wrap {
+        padding: 0 20px
+      }
+    }
+
+    /* eyebrow */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent-deep);
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 22px;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 2px
+    }
+
+    /* buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 15px 26px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 15.5px;
+      transition: transform .25s cubic-bezier(.2, .8, .2, 1), box-shadow .25s, background .25s, color .25s;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(224, 83, 42, .28)
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-deep);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(224, 83, 42, .34)
+    }
+
+    .btn-ghost {
+      background: var(--white);
+      color: var(--ink);
+      border: 1.5px solid var(--line-2);
+      box-shadow: var(--shadow-sm)
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--ink);
+      transform: translateY(-2px)
+    }
+
+    .btn-dark {
+      background: var(--ink);
+      color: #fff
+    }
+
+    .btn-dark:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow)
+    }
+
+    .btn .ic {
+      transition: transform .25s
+    }
+
+    .btn:hover .ic {
+      transform: translate(2px, -2px)
+    }
+
+    .btn-wa {
+      background: #1FA855;
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(31, 168, 85, .26)
+    }
+
+    .btn-wa:hover {
+      background: #17924a;
+      transform: translateY(-2px)
+    }
+
+    /* ───── NAV ───── */
+    header.nav {
+      position: relative;
+      z-index: 100;
+      padding: 0 20px 12px;
+      background: transparent;
+      border: none;
+      width: 100%;
+    }
+
+    .nav-in {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      background: transparent;
+      border: 1.5px solid transparent;
+      border-radius: 999px;
+      padding: 25px 28px 25px 32px;
+      box-shadow: none;
+      transition: background .5s ease, border-color .5s ease, box-shadow .5s ease, backdrop-filter .5s ease;
+    }
+
+    header.nav.scrolled .nav-in {
+      background: color-mix(in oklab, var(--bg) 96%, transparent);
+      backdrop-filter: blur(22px) saturate(1.5);
+      border-color: var(--line);
+      box-shadow: 0 4px 18px rgba(40, 30, 15, .08), 0 14px 36px rgba(40, 30, 15, .06);
+    }
+
+    section[id] {
+      scroll-margin-top: 120px
+    }
+
+    .nav-in {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 12px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px
+    }
+
+    @media(max-width:640px) {
+      .nav-in {
+        padding: 10px 20px
+      }
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-family: 'Bricolage Grotesque';
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -.02em;
+      white-space: nowrap
+    }
+
+    .logo img {
+      height: 85px;
+      width: auto;
+      mix-blend-mode: multiply;
+      transition: transform .3s ease;
+    }
+
+    .logo:hover img {
+      transform: scale(1.05);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 26px
+    }
+
+    .nav-links a {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--ink-soft);
+      transition: color .2s;
+      position: relative
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width .25s
+    }
+
+    .nav-links a:hover {
+      color: var(--ink)
+    }
+
+    .nav-links a:hover::after {
+      width: 100%
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-right: 2px
+    }
+
+    @media(max-width:980px) {
+
+      .nav-links,
+      .nav-cta .btn-ghost {
+        display: none
+      }
+    }
+
+    .ham {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      padding: 8px 6px;
+      flex: none
+    }
+
+    .ham span {
+      width: 22px;
+      height: 2px;
+      background: var(--ink);
+      border-radius: 2px;
+      transition: transform .3s, opacity .3s
+    }
+
+    .ham.open span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg)
+    }
+
+    .ham.open span:nth-child(2) {
+      opacity: 0
+    }
+
+    .ham.open span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg)
+    }
+
+    @media(max-width:980px) {
+      .ham {
+        display: flex
+      }
+    }
+
+    /* mobile menu */
+    #mnav {
+      position: fixed;
+      inset: 0;
+      z-index: 98;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 4px;
+      padding: 120px 28px 32px;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .35s;
+    }
+
+    /* when the menu is open, clear the header so it doesn't overlap the links */
+    body.menu-open .promo-bar {
+      display: none;
+    }
+
+    body.menu-open .nav-cta .btn-primary {
+      display: none;
+    }
+
+    #mnav.open {
+      opacity: 1;
+      pointer-events: auto
+    }
+
+    #mnav .mlink {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 600;
+      font-size: clamp(28px, 8vw, 44px);
+      color: var(--ink);
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      letter-spacing: -.02em
+    }
+
+    #mnav .mlink .n {
+      font-size: 14px;
+      color: var(--accent);
+      font-family: 'Hanken Grotesk';
+      font-weight: 600;
+      margin-right: 14px;
+      vertical-align: super
+    }
+
+    #mnav .m-foot {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px
+    }
+
+    /* footer CTAs inherit the normal button look, sized for the menu */
+    #mnav .m-foot .btn {
+      justify-content: center;
+      width: 100%;
+      font-size: 16px;
+      padding: 16px 22px;
+      white-space: normal;
+      word-break: break-word;
+      text-align: center;
+    }
+
+    /* ───── HERO ───── */
+    #hero {
+      position: relative;
+      padding: 40px 0 70px;
+      overflow: hidden
+    }
+
+    @media(max-width:860px) {
+      #hero {
+        padding: 24px 0 50px
+      }
+    }
+
+    /* name display */
+    .hero-name-block {
+      margin-bottom: 20px
+    }
+
+    .hero-hi {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px
+    }
+
+    .hero-hi::before {
+      content: '';
+      width: 22px;
+      height: 2px;
+      background: var(--muted);
+      border-radius: 2px
+    }
+
+    .hero-name {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0 16px;
+      line-height: .92
+    }
+
+    .hero-name .hn-first {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-weight: 800;
+      font-size: clamp(58px, 10vw, 120px);
+      letter-spacing: -.04em;
+      color: var(--ink)
+    }
+
+    .hero-name .hn-last {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(58px, 10vw, 120px);
+      letter-spacing: -.025em;
+      color: var(--accent)
+    }
+
+    .hero-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: .5;
+      pointer-events: none;
+      z-index: 0
+    }
+
+    .hero-glow.a {
+      width: 520px;
+      height: 520px;
+      background: radial-gradient(circle, #F7C9B6, transparent 70%);
+      top: -120px;
+      right: -80px
+    }
+
+    .hero-glow.b {
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, #CFE3D8, transparent 70%);
+      bottom: -160px;
+      left: -120px
+    }
+
+    .hero-in {
+      position: relative;
+      z-index: 2
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 8px 7px 14px;
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--ink-soft);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 30px;
+    }
+
+    .hero-badge .live {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px
+    }
+
+    .hero-badge .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1FA855;
+      box-shadow: 0 0 0 0 rgba(31, 168, 85, .5);
+      animation: ping 2s ease infinite
+    }
+
+    @keyframes ping {
+      0% {
+        box-shadow: 0 0 0 0 rgba(31, 168, 85, .45)
+      }
+
+      70% {
+        box-shadow: 0 0 0 8px rgba(31, 168, 85, 0)
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(31, 168, 85, 0)
+      }
+    }
+
+    .hero-badge .pill {
+      background: var(--accent-soft);
+      color: var(--accent-deep);
+      padding: 4px 11px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 12.5px;
+      transition: background .2s, transform .2s;
+      white-space: nowrap
+    }
+
+    .hero-badge {
+      flex-wrap: wrap
+    }
+
+    a.hero-badge-pill:hover {
+      background: var(--accent);
+      color: #fff;
+      transform: translateY(-1px)
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7.2vw, 92px);
+      line-height: 1.02;
+      letter-spacing: -.035em;
+      max-width: 15ch
+    }
+
+    .hero h1 .serif {
+      color: var(--accent)
+    }
+
+    .hero-sub {
+      font-size: clamp(17px, 2vw, 21px);
+      color: var(--muted);
+      max-width: 54ch;
+      margin-top: 26px;
+      line-height: 1.55
+    }
+
+    .hero-sub strong {
+      color: var(--ink);
+      font-weight: 600
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 36px
+    }
+
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 34px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14.5px
+    }
+
+    .hero-trust .avs {
+      display: flex
+    }
+
+    .hero-trust .avs span {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 2px solid var(--bg);
+      margin-left: -10px;
+      background: var(--cream-2);
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--ink-soft)
+    }
+
+    .hero-trust .avs span:first-child {
+      margin-left: 0
+    }
+
+    .hero-stars {
+      color: var(--accent)
+    }
+
+    /* hero offer card (replaces collage) */
+    .hero-offer {
+      margin-top: 52px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--line);
+    }
+
+    @media(max-width:860px) {
+      .hero-offer {
+        margin-top: 36px;
+        grid-template-columns: 1fr
+      }
+    }
+
+    .hero-offer-l {
+      background: var(--white);
+      padding: 36px 40px;
+    }
+
+    @media(max-width:560px) {
+      .hero-offer-l {
+        padding: 28px 24px
+      }
+    }
+
+    .hero-offer-l .ribbon {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-soft);
+      color: var(--accent-deep);
+      font-weight: 700;
+      font-size: 11.5px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 999px;
+      margin-bottom: 18px
+    }
+
+    .hero-offer-l .ribbon .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: ping 2s infinite
+    }
+
+    .hero-offer-l h3 {
+      font-size: clamp(22px, 3vw, 32px);
+      letter-spacing: -.025em;
+      line-height: 1.1;
+      margin-bottom: 20px
+    }
+
+    .hero-offer-l h3 .serif {
+      color: var(--accent)
+    }
+
+    .hero-offer-feat {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 20px
+    }
+
+    @media(max-width:560px) {
+      .hero-offer-feat {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .hero-offer-feat li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink-soft)
+    }
+
+    .hero-offer-feat li .ck {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #E4F4EA;
+      color: #1FA855;
+      display: grid;
+      place-items: center;
+      flex: none
+    }
+
+    .hero-offer-feat li .ck svg {
+      width: 12px;
+      height: 12px
+    }
+
+    .hero-offer-r {
+      background: linear-gradient(160deg, var(--ink), #2a2018);
+      color: #fff;
+      padding: 36px 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-offer-r::before {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(224, 83, 42, .45), transparent 70%);
+      top: -120px;
+      right: -80px;
+      filter: blur(8px)
+    }
+
+    .hero-offer-r .in {
+      position: relative;
+      z-index: 2;
+      width: 100%
+    }
+
+    .hero-offer-r .was {
+      color: rgba(255, 255, 255, .45);
+      font-size: 14px;
+      text-decoration: line-through;
+      text-decoration-color: var(--accent)
+    }
+
+    .hero-offer-r .price {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 800;
+      font-size: clamp(44px, 6vw, 64px);
+      line-height: 1;
+      letter-spacing: -.04em;
+      margin: 4px 0 2px;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 4px
+    }
+
+    .hero-offer-r .price .naira {
+      font-size: .55em;
+      color: #FF8A5E
+    }
+
+    .hero-offer-r .price-sub {
+      color: rgba(255, 255, 255, .65);
+      font-size: 14px;
+      margin-bottom: 22px
+    }
+
+    .hero-offer-r .btn-wa {
+      width: 100%;
+      justify-content: center;
+      font-size: 14px
+    }
+
+    .hero-offer-r .fine {
+      margin-top: 14px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, .5)
+    }
+
+    .hero-offer-r .slots {
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 12px;
+      color: #FFCDB8;
+      background: rgba(255, 255, 255, .08);
+      padding: 6px 12px;
+      border-radius: 999px
+    }
+
+    .hero-offer-r .slots .pulse {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #FF8A5E;
+      animation: ping 2s infinite
+    }
+
+    /* ───── MARQUEE ───── */
+    .marquee {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 26px 0;
+      overflow: hidden;
+      background: var(--white);
+      margin-top: 64px
+    }
+
+    .marquee .label {
+      text-align: center;
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 18px
+    }
+
+    .mq-track {
+      display: flex;
+      gap: 54px;
+      white-space: nowrap;
+      width: max-content;
+      animation: scroll 32s linear infinite;
+      align-items: center
+    }
+
+    .mq-track span {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 600;
+      font-size: 22px;
+      color: var(--ink-soft);
+      display: inline-flex;
+      align-items: center;
+      gap: 54px;
+      opacity: .62
+    }
+
+    .mq-track span::after {
+      content: "✦";
+      color: var(--accent);
+      font-size: 14px
+    }
+
+    @keyframes scroll {
+      to {
+        transform: translateX(-50%)
+      }
+    }
+
+    /* ───── SECTION SHELL ───── */
+    section.block {
+      padding: 110px 0
+    }
+
+    @media(max-width:860px) {
+      section.block {
+        padding: 74px 0
+      }
+    }
+
+    .sec-head {
+      max-width: 640px;
+      margin-bottom: 54px
+    }
+
+    .sec-head.center {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center
+    }
+
+    .sec-head h2 {
+      font-size: clamp(32px, 5vw, 58px);
+      line-height: 1.04;
+      margin-top: 16px;
+      letter-spacing: -.03em
+    }
+
+    .sec-head h2 .serif {
+      color: var(--accent)
+    }
+
+    .sec-head p {
+      color: var(--muted);
+      font-size: 18px;
+      margin-top: 18px
+    }
+
+    /* ───── STATS ───── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px
+    }
+
+    @media(max-width:760px) {
+      .stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px
+      }
+    }
+
+    .stat {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--r);
+      padding: 30px 26px;
+      box-shadow: var(--shadow-sm);
+      transition: transform .3s, box-shadow .3s
+    }
+
+    .stat:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow)
+    }
+
+    .stat .n {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 700;
+      font-size: clamp(38px, 5vw, 52px);
+      letter-spacing: -.03em;
+      line-height: 1;
+      color: var(--ink)
+    }
+
+    .stat .n .u {
+      color: var(--accent)
+    }
+
+    .stat .l {
+      color: var(--muted);
+      font-size: 14.5px;
+      margin-top: 10px;
+      font-weight: 500
+    }
+
+    /* ───── WORK ───── */
+    #work {
+      background: var(--cream)
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 34px
+    }
+
+    @media(max-width:820px) {
+      .work-grid {
+        grid-template-columns: 1fr;
+        gap: 26px
+      }
+    }
+
+    .work-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform .4s cubic-bezier(.2, .8, .2, 1), box-shadow .4s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .work-card:hover {
+      transform: translateY(-7px);
+      box-shadow: var(--shadow-lg)
+    }
+
+    .browser {
+      background: var(--cream-2);
+      padding: 11px 14px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .browser .dots {
+      display: flex;
+      gap: 6px
+    }
+
+    .browser .dots i {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: #D8CDBB
+    }
+
+    .browser .dots i:nth-child(1) {
+      background: #F0A04B
+    }
+
+    .browser .addr {
+      flex: 1;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 5px 12px;
+      font-size: 12.5px;
+      color: var(--muted);
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis
+    }
+
+    .shot {
+      position: relative;
+      aspect-ratio: 16/9;
+      overflow: hidden
+    }
+
+    .shot image-slot {
+      width: 100%;
+      height: 100%;
+      display: block
+    }
+
+    .shot image-slot::part(frame) {
+      background: transparent;
+      border-radius: 0
+    }
+
+    /* .grad = coloured placeholder behind image */
+    .shot .grad {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none
+    }
+
+    /* separate caption overlay — dark fade + text, always on top */
+    .shot .caption {
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 18px 20px;
+      background: linear-gradient(to top, rgba(10, 8, 5, .78) 0%, rgba(10, 8, 5, .15) 55%, transparent 100%)
+    }
+
+    .shot .caption .gname {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 700;
+      font-size: 20px;
+      color: #fff;
+      letter-spacing: -.02em;
+      line-height: 1.05;
+      text-shadow: 0 1px 8px rgba(0, 0, 0, .3)
+    }
+
+    .shot .caption .gtag {
+      color: rgba(255, 255, 255, .8);
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      letter-spacing: .06em;
+      text-transform: uppercase
+    }
+
+    .shot image-slot {
+      position: relative;
+      z-index: 2
+    }
+
+    .work-meta {
+      padding: 24px 26px 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1
+    }
+
+    .work-meta .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px
+    }
+
+    .cat {
+      display: inline-flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      color: var(--accent-deep);
+      background: var(--accent-soft);
+      padding: 5px 11px;
+      border-radius: 999px
+    }
+
+    .work-meta h3 {
+      font-size: 24px;
+      letter-spacing: -.02em
+    }
+
+    .work-meta p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.55;
+      flex: 1
+    }
+
+    .work-foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 6px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line)
+    }
+
+    .tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px
+    }
+
+    .tech span {
+      font-size: 12px;
+      color: var(--ink-soft);
+      background: var(--cream);
+      border: 1px solid var(--line);
+      padding: 4px 9px;
+      border-radius: 7px;
+      font-weight: 500
+    }
+
+    .visit {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-weight: 600;
+      font-size: 14.5px;
+      color: var(--ink);
+      white-space: nowrap
+    }
+
+    .visit .ic {
+      transition: transform .25s
+    }
+
+    .visit:hover {
+      color: var(--accent)
+    }
+
+    .visit:hover .ic {
+      transform: translate(2px, -2px)
+    }
+
+    .work-hint {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: var(--muted)
+    }
+
+    .work-hint b {
+      color: var(--ink-soft);
+      font-weight: 600
+    }
+
+    /* ───── SERVICES ───── */
+    .svc-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px
+    }
+
+    @media(max-width:900px) {
+      .svc-grid {
+        grid-template-columns: repeat(2, 1fr)
+      }
+    }
+
+    @media(max-width:600px) {
+      .svc-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .svc {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--r);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      transition: transform .3s, box-shadow .3s, border-color .3s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .svc:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow);
+      border-color: var(--line-2)
+    }
+
+    .svc .ico {
+      width: 54px;
+      height: 54px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: var(--accent-soft);
+      color: var(--accent-deep);
+      margin-bottom: 20px
+    }
+
+    .svc .ico svg {
+      width: 26px;
+      height: 26px
+    }
+
+    .svc h3 {
+      font-size: 21px;
+      margin-bottom: 9px;
+      letter-spacing: -.01em
+    }
+
+    .svc p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.55
+    }
+
+    .svc .feat {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px
+    }
+
+    .svc .feat li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 14px;
+      color: var(--ink-soft);
+      font-weight: 500
+    }
+
+    .svc .feat li svg {
+      width: 16px;
+      height: 16px;
+      color: var(--accent);
+      flex: none
+    }
+
+    /* ───── PROCESS ───── */
+    #process {
+      background: var(--ink);
+      color: #fff
+    }
+
+    #process .sec-head h2 {
+      color: #fff
+    }
+
+    #process .sec-head h2 .serif {
+      color: #FF8A5E
+    }
+
+    #process .sec-head p {
+      color: rgba(255, 255, 255, .6)
+    }
+
+    #process .eyebrow {
+      color: #FF8A5E
+    }
+
+    #process .eyebrow::before {
+      background: #FF8A5E
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px
+    }
+
+    @media(max-width:860px) {
+      .steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px
+      }
+    }
+
+    @media(max-width:480px) {
+      .steps {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .step {
+      padding: 28px;
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: var(--r);
+      background: rgba(255, 255, 255, .03);
+      transition: background .3s, transform .3s
+    }
+
+    .step:hover {
+      background: rgba(255, 255, 255, .06);
+      transform: translateY(-4px)
+    }
+
+    .step .num {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 700;
+      font-size: 15px;
+      color: #FF8A5E;
+      letter-spacing: .05em
+    }
+
+    .step h3 {
+      color: #fff;
+      font-size: 21px;
+      margin: 14px 0 9px
+    }
+
+    .step p {
+      color: rgba(255, 255, 255, .6);
+      font-size: 14.5px;
+      line-height: 1.55
+    }
+
+    /* ───── ABOUT ───── */
+    .about {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 56px;
+      align-items: center
+    }
+
+    @media(max-width:860px) {
+      .about {
+        grid-template-columns: 1fr;
+        gap: 36px
+      }
+    }
+
+    .about-photo {
+      position: relative
+    }
+
+    .about-photo image-slot {
+      width: 100%;
+      display: block;
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      overflow: hidden
+    }
+
+    .about-photo image-slot::part(frame) {
+      background: linear-gradient(150deg, #F2D9CC, #E5C9B8)
+    }
+
+    .about-photo .float {
+      position: absolute;
+      background: rgba(255, 255, 255, .92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, .6);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, .18);
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px
+    }
+
+    .about-photo .float.one {
+      bottom: 22px;
+      left: 18px
+    }
+
+    .about-photo .float .big {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 1;
+      color: var(--ink)
+    }
+
+    .about-photo .float .sm {
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 500;
+      margin-top: 3px
+    }
+
+    @media(max-width:860px) {
+      .about-photo .float.one {
+        bottom: 18px;
+        left: 14px;
+        right: auto
+      }
+    }
+
+    .about-body h2 {
+      font-size: clamp(30px, 4.4vw, 50px);
+      letter-spacing: -.03em;
+      line-height: 1.05
+    }
+
+    .about-body h2 .serif {
+      color: var(--accent)
+    }
+
+    .about-body p {
+      color: var(--ink-soft);
+      font-size: 17.5px;
+      line-height: 1.65;
+      margin-top: 20px
+    }
+
+    .about-body p.muted {
+      color: var(--muted);
+      font-size: 16px
+    }
+
+    .about-skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 26px
+    }
+
+    .about-skills span {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink-soft);
+      box-shadow: var(--shadow-sm)
+    }
+
+    .about-cta {
+      margin-top: 32px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap
+    }
+
+    /* ───── CTA ───── */
+    #cta {
+      position: relative;
+      overflow: hidden
+    }
+
+    .cta-box {
+      position: relative;
+      background: linear-gradient(135deg, #E0532A, #C2421E 55%, #A83617);
+      border-radius: 32px;
+      padding: 74px 60px;
+      text-align: center;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    @media(max-width:640px) {
+      .cta-box {
+        padding: 50px 26px;
+        border-radius: 24px
+      }
+    }
+
+    .cta-box::before {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .12);
+      top: -160px;
+      right: -120px;
+      filter: blur(20px)
+    }
+
+    .cta-box::after {
+      content: "";
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, .10);
+      bottom: -160px;
+      left: -100px;
+      filter: blur(20px)
+    }
+
+    .cta-box .in {
+      position: relative;
+      z-index: 2
+    }
+
+    .cta-box .eyebrow {
+      color: rgba(255, 255, 255, .9)
+    }
+
+    .cta-box .eyebrow::before {
+      background: #fff
+    }
+
+    .cta-box h2 {
+      color: #fff;
+      font-size: clamp(32px, 5.4vw, 62px);
+      letter-spacing: -.03em;
+      margin: 16px auto 0;
+      max-width: 18ch;
+      line-height: 1.03
+    }
+
+    .cta-box h2 .serif {
+      color: #FFE3D7
+    }
+
+    .cta-box p {
+      color: rgba(255, 255, 255, .86);
+      font-size: 19px;
+      margin: 20px auto 0;
+      max-width: 46ch
+    }
+
+    .cta-actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 36px
+    }
+
+    .cta-box .btn-light {
+      background: #fff;
+      color: var(--accent-deep)
+    }
+
+    .cta-box .btn-light:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, .2)
+    }
+
+    .cta-box .btn-outline {
+      background: rgba(255, 255, 255, .12);
+      color: #fff;
+      border: 1.5px solid rgba(255, 255, 255, .4)
+    }
+
+    .cta-box .btn-outline:hover {
+      background: rgba(255, 255, 255, .2);
+      transform: translateY(-2px)
+    }
+
+    .cta-mini {
+      margin-top: 26px;
+      color: rgba(255, 255, 255, .8);
+      font-size: 14.5px;
+      display: flex;
+      gap: 22px;
+      justify-content: center;
+      flex-wrap: wrap
+    }
+
+    .cta-mini a {
+      font-weight: 600;
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, .4);
+      padding-bottom: 1px
+    }
+
+    /* ───── FOOTER ───── */
+    footer {
+      background: var(--bg);
+      border-top: 1px solid var(--line);
+      padding: 60px 0 40px
+    }
+
+    .foot-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 44px
+    }
+
+    @media(max-width:760px) {
+      .foot-grid {
+        grid-template-columns: 1fr;
+        gap: 32px
+      }
+    }
+
+    .foot-brand .logo {
+      margin-bottom: 16px
+    }
+
+    .foot-brand p {
+      color: var(--muted);
+      font-size: 15px;
+      max-width: 34ch
+    }
+
+    .foot-col h4 {
+      font-family: 'Hanken Grotesk';
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px
+    }
+
+    .foot-col a {
+      display: block;
+      color: var(--ink-soft);
+      font-size: 15.5px;
+      font-weight: 500;
+      padding: 5px 0;
+      transition: color .2s
+    }
+
+    .foot-col a:hover {
+      color: var(--accent)
+    }
+
+    .foot-bottom {
+      border-top: 1px solid var(--line);
+      padding-top: 26px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14px
+    }
+
+    .foot-social {
+      display: flex;
+      gap: 10px
+    }
+
+    .foot-social a {
+      width: 40px;
+      height: 40px;
+      border-radius: 11px;
+      border: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+      color: var(--ink-soft);
+      background: var(--white);
+      transition: all .25s
+    }
+
+    .foot-social a:hover {
+      background: var(--ink);
+      color: #fff;
+      transform: translateY(-3px)
+    }
+
+    .foot-social a svg {
+      width: 18px;
+      height: 18px
+    }
+
+    /* ───── ANNOUNCEMENT BAR (compact pill, floats with nav) ───── */
+    .topstack {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px 0;
+      pointer-events: none;
+    }
+
+    .topstack>* {
+      pointer-events: auto
+    }
+
+    .promo-bar {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, var(--ink), #2a241b);
+      color: #fff;
+      border-radius: 999px;
+      padding: 8px 12px 8px 18px;
+      font-size: 13px;
+      font-weight: 500;
+      white-space: nowrap;
+      max-width: min(700px, 94vw);
+      overflow: hidden;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, .28);
+    }
+
+    .promo-bar>span,
+    .promo-bar>a,
+    .promo-bar>.tag {
+      flex: none
+    }
+
+    .promo-bar b {
+      font-weight: 700;
+      color: #FFCDB8
+    }
+
+    .promo-bar .tag {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      font-size: 11.5px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 999px;
+      white-space: nowrap
+    }
+
+    .promo-bar a {
+      color: rgba(255, 255, 255, .9);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-weight: 600;
+      white-space: nowrap
+    }
+
+    .promo-bar .x {
+      color: rgba(255, 255, 255, .55);
+      font-size: 15px;
+      padding: 3px 5px;
+      margin-left: 2px;
+      flex: none;
+      transition: color .2s;
+      cursor: pointer;
+      background: none;
+      border: none
+    }
+
+    .promo-bar .x:hover {
+      color: #fff
+    }
+
+    @media(max-width:760px) {
+      .promo-bar .hide-xs {
+        display: none
+      }
+    }
+
+    @media(max-width:560px) {
+      .promo-bar {
+        font-size: 12px;
+        padding: 7px 10px 7px 15px;
+        gap: 7px
+      }
+
+      .promo-bar .tag {
+        display: none
+      }
+    }
+
+    body.promo-off .promo-bar {
+      display: none
+    }
+
+    /* ───── TESTIMONIALS ───── */
+    #reviews {
+      background: var(--cream);
+      position: relative;
+      overflow: hidden
+    }
+
+    .tm-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px
+    }
+
+    @media(max-width:900px) {
+      .tm-grid {
+        grid-template-columns: repeat(2, 1fr)
+      }
+    }
+
+    @media(max-width:620px) {
+      .tm-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .tm {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--r);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      transition: transform .3s, box-shadow .3s;
+      position: relative;
+    }
+
+    .tm:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow)
+    }
+
+    .tm .quote-mark {
+      font-family: 'Instrument Serif', serif;
+      font-size: 60px;
+      line-height: .5;
+      color: var(--accent-soft);
+      height: 30px;
+      overflow: hidden
+    }
+
+    .tm .stars {
+      color: var(--accent);
+      font-size: 15px;
+      letter-spacing: 2px
+    }
+
+    .tm p {
+      color: var(--ink-soft);
+      font-size: 16px;
+      line-height: 1.6;
+      flex: 1
+    }
+
+    .tm .who {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding-top: 6px;
+      border-top: 1px solid var(--line)
+    }
+
+    .tm .av {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+      flex: none;
+      font-family: 'Bricolage Grotesque'
+    }
+
+    .tm .who .nm {
+      font-weight: 700;
+      font-size: 15.5px;
+      color: var(--ink);
+      font-family: 'Bricolage Grotesque';
+      letter-spacing: -.01em
+    }
+
+    .tm .who .rl {
+      font-size: 13px;
+      color: var(--muted)
+    }
+
+    .tm.feature {
+      grid-column: span 1;
+      background: var(--ink);
+      border-color: var(--ink)
+    }
+
+    .tm.feature p,
+    .tm.feature .who .nm {
+      color: #fff
+    }
+
+    .tm.feature .who {
+      border-top-color: rgba(255, 255, 255, .14)
+    }
+
+    .tm.feature .who .rl {
+      color: rgba(255, 255, 255, .6)
+    }
+
+    .tm.feature .quote-mark {
+      color: rgba(255, 138, 94, .4)
+    }
+
+    /* ───── PROMO / PRICING ───── */
+    #promo {
+      position: relative;
+      overflow: hidden;
+      background: var(--bg)
+    }
+
+    .promo-dots {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      opacity: .5;
+      pointer-events: none;
+      background-image: radial-gradient(var(--line-2) 1.4px, transparent 1.4px);
+      background-size: 26px 26px;
+      mask-image: radial-gradient(ellipse 70% 80% at 50% 40%, #000, transparent 75%)
+    }
+
+    .promo-card {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 0;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    @media(max-width:840px) {
+      .promo-card {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .promo-left {
+      padding: 50px 48px
+    }
+
+    @media(max-width:560px) {
+      .promo-left {
+        padding: 36px 26px
+      }
+    }
+
+    .promo-left .ribbon {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-soft);
+      color: var(--accent-deep);
+      font-weight: 700;
+      font-size: 12.5px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 7px 14px;
+      border-radius: 999px;
+      margin-bottom: 22px
+    }
+
+    .promo-left .ribbon .pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: ping 2s infinite
+    }
+
+    .promo-left h2 {
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing: -.03em;
+      line-height: 1.05
+    }
+
+    .promo-left h2 .serif {
+      color: var(--accent)
+    }
+
+    .promo-left .lead {
+      color: var(--muted);
+      font-size: 16.5px;
+      margin-top: 14px;
+      line-height: 1.55
+    }
+
+    .promo-feat {
+      list-style: none;
+      margin-top: 26px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px 22px
+    }
+
+    @media(max-width:560px) {
+      .promo-feat {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .promo-feat li {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--ink-soft)
+    }
+
+    .promo-feat li .ck {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #E4F4EA;
+      color: #1FA855;
+      display: grid;
+      place-items: center;
+      flex: none
+    }
+
+    .promo-feat li .ck svg {
+      width: 13px;
+      height: 13px
+    }
+
+    .promo-right {
+      background: linear-gradient(160deg, var(--ink), #2a2018);
+      color: #fff;
+      padding: 50px 44px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .promo-right::before {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(224, 83, 42, .4), transparent 70%);
+      top: -120px;
+      right: -100px;
+      filter: blur(10px)
+    }
+
+    .promo-right .in {
+      position: relative;
+      z-index: 2;
+      width: 100%
+    }
+
+    .promo-right .was {
+      color: rgba(255, 255, 255, .5);
+      font-size: 16px;
+      text-decoration: line-through;
+      text-decoration-color: var(--accent)
+    }
+
+    .promo-right .price {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 800;
+      font-size: clamp(48px, 8vw, 72px);
+      line-height: 1;
+      letter-spacing: -.04em;
+      margin: 6px 0 2px;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 6px
+    }
+
+    .promo-right .price .naira {
+      font-size: .55em;
+      color: #FF8A5E;
+      font-weight: 700
+    }
+
+    .promo-right .price-sub {
+      color: rgba(255, 255, 255, .7);
+      font-size: 15px;
+      margin-bottom: 26px
+    }
+
+    .promo-right .btn {
+      width: 100%;
+      justify-content: center
+    }
+
+    .promo-right .fine {
+      margin-top: 16px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, .55)
+    }
+
+    .promo-right .slots {
+      margin-top: 18px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: #FFCDB8;
+      background: rgba(255, 255, 255, .08);
+      padding: 7px 14px;
+      border-radius: 999px
+    }
+
+    .promo-right .slots .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #FF8A5E;
+      animation: ping 2s infinite
+    }
+
+    /* section eyebrow centering helper already exists; small divider */
+    .divider-leaf {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      color: var(--line-2);
+      margin: 0 auto 8px
+    }
+
+    .divider-leaf::before,
+    .divider-leaf::after {
+      content: "";
+      height: 1px;
+      width: 40px;
+      background: var(--line-2)
+    }
+
+    .divider-leaf span {
+      color: var(--accent);
+      font-size: 13px
+    }
+
+    /* ───── MID-PAGE OFFER STRIP ───── */
+    .offer-strip-wrap {
+      padding: 0 0 0
+    }
+
+    .offer-strip {
+      position: relative;
+      overflow: hidden;
+      border-radius: 24px;
+      background: linear-gradient(120deg, #1c1812, #2a2018);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      padding: 30px 40px;
+      box-shadow: var(--shadow);
+    }
+
+    @media(max-width:760px) {
+      .offer-strip {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 28px 24px;
+        text-align: left
+      }
+    }
+
+    .offer-strip::before {
+      content: "";
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(224, 83, 42, .45), transparent 70%);
+      top: -160px;
+      right: -80px;
+      filter: blur(8px)
+    }
+
+    .offer-strip .os-l {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 8px
+    }
+
+    .offer-strip .os-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      width: max-content;
+      background: rgba(255, 255, 255, .1);
+      color: #FFCDB8;
+      font-weight: 700;
+      font-size: 11.5px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 999px
+    }
+
+    .offer-strip .os-tag .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #FF8A5E;
+      animation: ping 2s infinite
+    }
+
+    .offer-strip .os-h {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 700;
+      font-size: clamp(22px, 3.2vw, 30px);
+      letter-spacing: -.02em;
+      line-height: 1.15
+    }
+
+    .offer-strip .os-h .serif {
+      color: #FF8A5E
+    }
+
+    .offer-strip .os-r {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex: none
+    }
+
+    @media(max-width:760px) {
+      .offer-strip .os-r {
+        gap: 18px
+      }
+    }
+
+    .offer-strip .os-price {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 800;
+      font-size: clamp(34px, 5vw, 48px);
+      letter-spacing: -.04em;
+      line-height: 1;
+      white-space: nowrap
+    }
+
+    .offer-strip .os-price .naira {
+      color: #FF8A5E;
+      font-size: .6em
+    }
+
+    .offer-strip .os-price .was {
+      display: block;
+      font-family: 'Hanken Grotesk';
+      font-weight: 500;
+      font-size: 13px;
+      color: rgba(255, 255, 255, .45);
+      text-decoration: line-through;
+      text-decoration-color: #E0532A;
+      letter-spacing: 0;
+      margin-bottom: 2px
+    }
+
+    .offer-strip .btn-light {
+      background: #fff;
+      color: var(--accent-deep)
+    }
+
+    .offer-strip .btn-light:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(0, 0, 0, .25)
+    }
+
+    /* reveal */
+    .rv {
+      opacity: 0;
+      transform: translateY(34px)
+    }
+
+    /* floating whatsapp */
+    .wa-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 90;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #1FA855;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 10px 30px rgba(31, 168, 85, .4);
+      transition: transform .3s;
+    }
+
+    .wa-float:hover {
+      transform: scale(1.08)
+    }
+
+    .wa-float svg {
+      width: 30px;
+      height: 30px;
+      fill: #fff
+    }
+
+    @media(max-width:640px) {
+      .wa-float {
+        width: 54px;
+        height: 54px;
+        bottom: 18px;
+        right: 18px
+      }
+
+      .wa-float svg {
+        width: 27px;
+        height: 27px
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ───────── STICKY TOP STACK (promo bar + nav) ───────── -->
+  <div class="topstack">
+    <!-- promo bar -->
+    <div class="promo-bar" id="promoBar">
+      <span class="tag">Launch offer</span>
+      <span><b>₦150,000</b> for a complete website <span class="hide-xs">— free domain + hosting included.</span></span>
+      <a href="#promo">See the deal →</a>
+      <button class="x" id="promoX" aria-label="Dismiss">✕</button>
+    </div>
+
+    <!-- ───────── NAV ───────── -->
+    <header class="nav" id="nav">
+      <div class="nav-in">
+        <a class="logo" href="#hero" aria-label="Wole Tech home">
+          <img src="wole_tech_logo_v5.png" alt="Wole Tech">
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#work">Work</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#services">Services</a>
+          <a href="#promo">Pricing</a>
+          <a href="#about">About</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-ghost" href="mailto:davidaiyewumi1@gmail.com">Email me</a>
+          <a class="btn btn-primary"
+            href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+            target="_blank" rel="noopener">Start a project</a>
+          <button class="ham" id="ham" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+  </div><!-- /topstack -->
+
+  <!-- mobile menu -->
+  <div id="mnav">
+    <a href="#work" class="mlink"><span class="n">01</span>Work</a>
+    <a href="#reviews" class="mlink"><span class="n">02</span>Reviews</a>
+    <a href="#services" class="mlink"><span class="n">03</span>Services</a>
+    <a href="#promo" class="mlink"><span class="n">04</span>Pricing</a>
+    <a href="#about" class="mlink"><span class="n">05</span>About</a>
+    <a href="#cta" class="mlink"><span class="n">06</span>Contact</a>
+    <div class="m-foot">
+      <a class="btn btn-wa"
+        href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+        target="_blank" rel="noopener">Chat on WhatsApp</a>
+      <a class="btn btn-ghost" href="mailto:davidaiyewumi1@gmail.com">davidaiyewumi1@gmail.com</a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ───────── HERO ───────── -->
+    <section id="hero">
+      <div class="hero-glow a"></div>
+      <div class="hero-glow b"></div>
+      <div class="wrap hero-in">
+        <div class="hero">
+          <!-- offer badge -->
+
+          <!-- headline -->
+          <h1 class="rv">I build websites &amp; landing pages<br>that <span class="serif">drive sales</span> &amp; grow
+            your brand.</h1>
+          <p class="hero-sub rv">Web developer &amp; designer helping businesses look credible online. From
+            <strong>landing pages that convert</strong> to full business websites that establish your brand — I design
+            and build it all, fast and mobile-first.
+          </p>
+          <div class="hero-cta rv">
+            <a class="btn btn-primary" href="#work">See my work <span class="ic">↓</span></a>
+            <a class="btn btn-wa"
+              href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+              target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z" />
+              </svg>
+              WhatsApp me
+            </a>
+          </div>
+          <div class="hero-trust rv">
+            <div class="avs"><span>RA</span><span>NS</span><span>CF</span><span>+9</span></div>
+            <div><span class="hero-stars">★★★★★</span> &nbsp;<strong style="color:var(--ink)">12+ websites</strong>
+              shipped for real businesses</div>
+          </div>
+        </div>
+
+        <!-- hero offer card -->
+        <div class="hero-offer rv">
+          <div class="hero-offer-l">
+            <span class="ribbon"><span class="pulse"></span> Limited launch offer</span>
+            <h3>Everything <span class="serif">done for you.</span></h3>
+            <ul class="hero-offer-feat">
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Custom design</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Free domain <em>(1 yr)</em></li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Free hosting <em>(1 yr)</em></li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Mobile responsive</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>SEO &amp; Google setup</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Contact form</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Fast delivery</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span>Free edits</li>
+            </ul>
+          </div>
+          <div class="hero-offer-r">
+            <div class="in">
+              <div class="was">Regular ₦300,000</div>
+              <div class="price"><span class="naira">₦</span>150,000</div>
+              <div class="price-sub">complete website · all-in</div>
+              <a class="btn btn-wa"
+                href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20am%20interested%20in%20the%20150%2C000%20naira%20website%20offer."
+                target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z" />
+                </svg>
+                Claim this offer
+              </a>
+              <div class="fine">Pay in two parts · delivery on approval</div>
+              <div class="slots"><span class="pulse"></span> Only a few slots left this month</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── MARQUEE ───────── -->
+    <div class="marquee">
+      <div class="label">Trusted across industries</div>
+      <div class="mq-track">
+        <span>Aviation</span><span>Energy &amp; Power</span><span>Government</span><span>Automotive</span><span>Events
+          &amp; Weddings</span><span>Local Services</span><span>Membership Orgs</span>
+        <span>Aviation</span><span>Energy &amp; Power</span><span>Government</span><span>Automotive</span><span>Events
+          &amp; Weddings</span><span>Local Services</span><span>Membership Orgs</span>
+      </div>
+    </div>
+
+    <!-- ───────── STATS ───────── -->
+    <section class="block">
+      <div class="wrap">
+        <div class="stats">
+          <div class="stat rv">
+            <div class="n" data-count="12"><span class="cn">0</span><span class="u">+</span></div>
+            <div class="l">Websites shipped</div>
+          </div>
+          <div class="stat rv">
+            <div class="n" data-count="3"><span class="cn">0</span><span class="u">yrs</span></div>
+            <div class="l">Building for the web</div>
+          </div>
+          <div class="stat rv">
+            <div class="n" data-count="7"><span class="cn">0</span><span class="u">+</span></div>
+            <div class="l">Industries served</div>
+          </div>
+          <div class="stat rv">
+            <div class="n" data-count="100"><span class="cn">0</span><span class="u">%</span></div>
+            <div class="l">Mobile responsive</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── WORK ───────── -->
+    <section class="block" id="work">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="eyebrow rv">Selected work</span>
+          <h2 class="rv">Real websites, for <span class="serif">real businesses.</span></h2>
+          <p class="rv">A look at projects I've designed and built — from national agencies and airlines to local
+            services and weddings. Every one is live, fast, and built to convert.</p>
+        </div>
+
+        <div class="work-grid" id="workGrid">
+          <!-- cards injected by script below for brevity of markup, but written as static HTML -->
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- ───────── TESTIMONIALS ───────── -->
+    <section class="block" id="reviews">
+      <div class="wrap">
+        <div class="sec-head center">
+          <div class="divider-leaf"><span>★</span></div>
+          <span class="eyebrow rv" style="display:inline-flex">Kind words</span>
+          <h2 class="rv">Most Notable <span class="serif">Testimonials.</span></h2>
+          <p class="rv">Real feedback from the businesses and people I've built for.</p>
+        </div>
+
+        <div class="tm-grid" style="grid-template-columns:repeat(3,1fr)">
+          <figure class="tm feature rv">
+            <div class="quote-mark">"</div>
+            <div class="stars">★★★★★</div>
+            <p>This David guy is a design freak wow, I'm impressed.</p>
+            <figcaption class="who">
+              <span class="av" style="background:linear-gradient(135deg,#a14b5f,#e6a0a8)">HA</span>
+              <span><span class="rl">Wedding website — Hiqma &amp; Akeem</span></span>
+            </figcaption>
+          </figure>
+
+          <figure class="tm rv">
+            <div class="quote-mark">"</div>
+            <div class="stars">★★★★★</div>
+            <p>The design alone brought more customers to us within a month after launch.</p>
+            <figcaption class="who">
+              <span class="av" style="background:linear-gradient(135deg,#0a8fa3,#5fd0b0)">CF</span>
+              <span><span class="rl">Clean Freaks · Cleaning service</span></span>
+            </figcaption>
+          </figure>
+
+          <figure class="tm rv">
+            <div class="quote-mark">"</div>
+            <div class="stars">★★★★★</div>
+            <p>He delivered a polished platform for thousands of our members on time and handled every detail.
+              Communication was clear from start to finish.</p>
+            <figcaption class="who">
+              <span class="av" style="background:linear-gradient(135deg,#16407a,#3d82d6)">NA</span>
+              <span><span class="rl">NAAPE · Membership organisation</span></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── MID-PAGE OFFER STRIP ───────── -->
+    <section class="block offer-strip-wrap" style="padding-top:0">
+      <div class="wrap">
+        <div class="offer-strip rv">
+          <div class="os-l">
+            <span class="os-tag"><span class="pulse"></span> Limited launch offer</span>
+            <div class="os-h">A complete website with <span class="serif">free domain &amp; hosting.</span></div>
+          </div>
+          <div class="os-r">
+            <div class="os-price"><span class="was">Regular ₦300,000</span><span class="naira">₦</span>150,000</div>
+            <a class="btn btn-light" href="#promo">See what's included →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── SERVICES ───────── -->
+    <section class="block" id="services">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="eyebrow rv" style="display:inline-flex">What I do</span>
+          <h2 class="rv">Everything you need to <span class="serif">win online.</span></h2>
+          <p class="rv">Whether you're launching a product, capturing leads, or replacing an outdated site — I design
+            and build it end-to-end.</p>
+        </div>
+
+        <div class="svc-grid">
+          <div class="svc rv">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 4h16v12H4z" />
+                <path d="M2 20h20" />
+                <path d="M8 8h8M8 12h5" />
+              </svg></div>
+            <h3>Landing Pages</h3>
+            <p>High-converting single pages built to sell one product, service, or event — fast to load, impossible to
+              ignore.</p>
+            <ul class="feat">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Conversion-first layout</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Lead capture &amp; forms</li>
+            </ul>
+          </div>
+          <div class="svc rv">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M3 9h18M9 21V9" />
+              </svg></div>
+            <h3>Business Websites</h3>
+            <p>Multi-page sites that make your company look established and trustworthy — about, services, contact, the
+              works.</p>
+            <ul class="feat">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> CMS so you can edit</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Built for SEO</li>
+            </ul>
+          </div>
+          <div class="svc rv">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="9" cy="21" r="1" />
+                <circle cx="20" cy="21" r="1" />
+                <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+              </svg></div>
+            <h3>E-commerce &amp; Booking</h3>
+            <p>Sell products or take bookings online with secure checkout, payment integration, and an admin you can
+              actually use.</p>
+            <ul class="feat">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Payments &amp; checkout</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Inventory &amp; orders</li>
+            </ul>
+          </div>
+          <div class="svc rv">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 2l2.5 5L20 8l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-1z" />
+              </svg></div>
+            <h3>Event &amp; Wedding Sites</h3>
+            <p>Beautiful microsites for events and weddings — schedules, galleries, RSVP and registration that just
+              works.</p>
+            <ul class="feat">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> RSVP &amp; registration</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Galleries &amp; countdowns</li>
+            </ul>
+          </div>
+          <div class="svc rv">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 3v18M19 3v18M5 8h14M5 14h14" />
+                <circle cx="12" cy="3" r="0" />
+              </svg></div>
+            <h3>Web Apps &amp; Dashboards</h3>
+            <p>Got something more complex? I build full-stack web apps, portals and dashboards with login, data, and
+              real logic.</p>
+            <ul class="feat">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Auth &amp; user accounts</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> APIs &amp; databases</li>
+            </ul>
+          </div>
+          <div class="svc rv">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="11" cy="11" r="7" />
+                <path d="M21 21l-4.3-4.3" />
+              </svg></div>
+            <h3>SEO &amp; Performance</h3>
+            <p>Get found on Google and load in under a second. I tune speed, metadata and structure so customers
+              actually reach you.</p>
+            <ul class="feat">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Google-ready setup</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg> Core Web Vitals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── PROMO / PRICING ───────── -->
+    <section class="block" id="promo">
+      <div class="promo-dots"></div>
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="eyebrow rv" style="display:inline-flex">Limited-time launch offer</span>
+          <h2 class="rv">A complete website for <span class="serif">one flat price.</span></h2>
+          <p class="rv">No hidden fees, no surprises. Everything you need to get online and start selling — bundled into
+            a single, honest package.</p>
+        </div>
+
+        <div class="promo-card rv">
+          <div class="promo-left">
+            <span class="ribbon"><span class="pulse"></span> Offer ends soon</span>
+            <h2>Everything <span class="serif">done for you.</span></h2>
+            <p class="lead">A full, custom-designed website — built, launched, and ready to bring in customers. Domain
+              and hosting are on me for the first year.</p>
+            <ul class="promo-feat">
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> Custom multi-page design</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> Free domain <em>(1 year)</em></li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> Free hosting <em>(1 year)</em></li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> 100% mobile responsive</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> SEO &amp; Google setup</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> Contact form &amp; WhatsApp</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> Fast delivery</li>
+              <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></span> Free edits after launch</li>
+            </ul>
+          </div>
+          <div class="promo-right">
+            <div class="in">
+              <div class="was">Regular ₦300,000</div>
+              <div class="price"><span class="naira">₦</span>150,000</div>
+              <div class="price-sub">complete website · all-in</div>
+              <a class="btn btn-wa"
+                href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20am%20interested%20in%20the%20150%2C000%20naira%20website%20offer."
+                target="_blank" rel="noopener">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z" />
+                </svg>
+                Claim this offer
+              </a>
+              <div class="fine">Pay in two parts · delivery on approval</div>
+              <div class="slots"><span class="pulse"></span> Only a few slots left this month</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── PROCESS ───────── -->
+    <section class="block" id="process">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="eyebrow rv">How we work</span>
+          <h2 class="rv">From idea to launch in <span class="serif">four simple steps.</span></h2>
+          <p class="rv">No jargon, no chaos. A clear process so you always know what's happening with your project.</p>
+        </div>
+        <div class="steps">
+          <div class="step rv">
+            <div class="num">STEP 01</div>
+            <h3>Discover</h3>
+            <p>We talk about your business, your customers, and what success looks like. I learn what you actually need.
+            </p>
+          </div>
+          <div class="step rv">
+            <div class="num">STEP 02</div>
+            <h3>Design</h3>
+            <p>I design a clean, on-brand layout and share it with you early — so we shape it together before a line of
+              code.</p>
+          </div>
+          <div class="step rv">
+            <div class="num">STEP 03</div>
+            <h3>Build</h3>
+            <p>I build it fast and responsive, tested on phones, tablets and desktop, with SEO and speed baked in.</p>
+          </div>
+          <div class="step rv">
+            <div class="num">STEP 04</div>
+            <h3>Launch</h3>
+            <p>We go live, connect your domain, and I make sure everything works. Support and tweaks afterwards
+              included.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── ABOUT ───────── -->
+    <section class="block" id="about">
+      <div class="wrap">
+        <div class="about">
+          <div class="about-photo rv">
+            <image-slot id="about-photo" shape="rounded" radius="22" placeholder="Drop your photo here"
+              src="uploads/wole_office.jpg" style="width:100%;height:520px;display:block"></image-slot>
+            <div class="float one">
+              <div>
+                <div class="big">3+ yrs</div>
+                <div class="sm">designing &amp; building</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-body">
+            <span class="eyebrow rv">About me</span>
+            <h2 class="rv">Hi, I'm David. I make businesses look <span class="serif">incredible</span> online.</h2>
+            <p class="rv">I'm a developer and designer based in Nigeria, working with clients anywhere. I've built
+              everything from a national safety agency's portal and an airline's booking site to wedding pages and local
+              service sites.</p>
+            <p class="muted rv">My focus is simple: websites that load fast, look beautiful on every screen, and are
+              built to bring you customers — not just sit there looking pretty. I handle the design, the code, and the
+              launch, so you don't have to juggle a team.</p>
+            <div class="about-skills rv">
+              <span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind</span><span>Node.js</span><span>UI/UX
+                Design</span><span>Framer Motion</span><span>SEO</span>
+            </div>
+            <div class="about-cta rv">
+              <a class="btn btn-dark"
+                href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+                target="_blank" rel="noopener">Let's talk →</a>
+              <a class="btn btn-ghost" href="mailto:davidaiyewumi1@gmail.com">davidaiyewumi1@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── CTA ───────── -->
+    <section class="block" id="cta">
+      <div class="wrap">
+        <div class="cta-box rv">
+          <div class="in">
+            <span class="eyebrow" style="display:inline-flex">Let's build something</span>
+            <h2>Got a project in mind? <span class="serif">Let's make it real.</span></h2>
+            <p>Tell me what you're building and I'll get back to you fast — usually the same day. No pressure, just a
+              conversation.</p>
+            <div class="cta-actions">
+              <a class="btn btn-wa"
+                href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+                target="_blank" rel="noopener">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z" />
+                </svg>
+                Chat on WhatsApp
+              </a>
+              <a class="btn btn-light" href="mailto:davidaiyewumi1@gmail.com">Send an email</a>
+            </div>
+            <div class="cta-mini">
+              <span>📧 <a href="mailto:davidaiyewumi1@gmail.com">davidaiyewumi1@gmail.com</a></span>
+              <span>📱 <a
+                  href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+                  target="_blank" rel="noopener">0805 797 2435</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ───────── FOOTER ───────── -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a class="logo" href="#hero" aria-label="Wole Tech home"><img src="wole_tech_logo_v5.png" alt="Wole Tech"></a>
+          <p>Designing and building websites that help businesses look credible and sell more — anywhere in the world.
+          </p>
+        </div>
+        <div class="foot-col">
+          <h4>Navigate</h4>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="foot-col">
+          <h4>Get in touch</h4>
+          <a href="mailto:davidaiyewumi1@gmail.com">davidaiyewumi1@gmail.com</a>
+          <a href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+            target="_blank" rel="noopener">WhatsApp · 0805 797 2435</a>
+          <a href="https://github.com/wolethescientist" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/david-aiyewumi" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Wole Tech. All rights reserved.</span>
+        <div class="foot-social">
+          <a href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+            target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z" />
+            </svg></a>
+          <a href="https://github.com/wolethescientist" target="_blank" rel="noopener" aria-label="GitHub"><svg
+              viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg></a>
+          <a href="mailto:davidaiyewumi1@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-10 6L2 7" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float"
+    href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business."
+    target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z" />
+    </svg>
+  </a>
+
+  <script>
+    /* ───── build work cards ───── */
+    const PROJECTS = [
+      { name: "Connexxion Group", url: "https://connexxiongroup.com/", host: "connexxiongroup.com", cat: "Corporate", desc: "Brand site for a multi-sector technology &amp; infrastructure group — bold, corporate, and built to impress partners.", tech: ["Next.js", "Tailwind"], grad: "linear-gradient(135deg,#2b3a8f,#5a73e8)" },
+      { name: "Connexxion Energy", url: "https://energy.connexxiongroup.com/", host: "energy.connexxiongroup.com", cat: "Energy", desc: "Energy-division landing page communicating clean power and large-scale infrastructure with clarity.", tech: ["Next.js", "React"], grad: "linear-gradient(135deg,#0f7a6b,#3fbfa3)" },
+      { name: "Rano Air", url: "https://ranoair.vercel.app/", host: "ranoair.vercel.app", cat: "Aviation · Airline", desc: "Airline website with routes, fleet and flight enquiry — clean booking-ready experience for travellers.", tech: ["Next.js", "Tailwind"], grad: "linear-gradient(135deg,#1e6fd9,#5fb0f0)" },
+      { name: "APS Aero", url: "https://www.apsaerollc.com/", host: "apsaerollc.com", cat: "Aviation · SaaS", desc: "Site for an aviation &amp; marine accident-investigation and flight-data monitoring company.", tech: ["React", "Node.js"], grad: "linear-gradient(135deg,#2a3340,#5b6b80)" },
+      { name: "NSIB", url: "https://nsib.vercel.app/", host: "nsib.vercel.app", cat: "Government", desc: "Official portal for a national safety investigation bureau — news, reports and public investigations.", tech: ["Next.js", "CMS"], grad: "linear-gradient(135deg,#16683a,#4aa86a)" },
+      { name: "CAE Global", url: "https://www.caegloballlc.com/", host: "caegloballlc.com", cat: "Aviation · Training", desc: "Corporate site for an aviation training &amp; simulation company based in Tampa, Florida.", tech: ["Next.js", "Tailwind"], grad: "linear-gradient(135deg,#10243f,#c79a3e)" },
+      { name: "NAAPE IWD Event", url: "https://www.event.naape.ng/iwd-event", host: "event.naape.ng", cat: "Event", desc: "International Women's Day event microsite — programme, speakers and online registration.", tech: ["Next.js", "Forms"], grad: "linear-gradient(135deg,#7b2d8e,#e0559b)" },
+      { name: "NAAPE", url: "https://www.naape.ng/", host: "naape.ng", cat: "Membership Org", desc: "Membership platform for 3,000+ aviation professionals — profiles, news and member access.", tech: ["Next.js", "Node.js"], grad: "linear-gradient(135deg,#16407a,#3d82d6)" },
+      { name: "Helium Power", url: "https://helium-power.vercel.app/", host: "helium-power.vercel.app", cat: "Energy", desc: "Brand site for a power &amp; energy company — confident, modern and conversion-focused.", tech: ["React", "Tailwind"], grad: "linear-gradient(135deg,#b3471a,#f0902b)" },
+      { name: "Sarkin Mota Group", url: "https://sarkinmota-group.vercel.app/", host: "sarkinmota-group.vercel.app", cat: "Automotive", desc: "Automotive group brand &amp; inventory showcase — sleek presentation for cars and services.", tech: ["Next.js", "Tailwind"], grad: "linear-gradient(135deg,#1c1c1e,#c5303a)" },
+      { name: "Clean Freaks", url: "https://cleanfreaks.vercel.app/cleanfreaks", host: "cleanfreaks.vercel.app", cat: "Local Service", desc: "Cleaning-service site built to capture bookings — friendly, trustworthy and fast on mobile.", tech: ["React", "Forms"], grad: "linear-gradient(135deg,#0a8fa3,#5fd0b0)" },
+      { name: "Hiqma &amp; Akeem", url: "https://hiqma-weds-akeem.vercel.app/", host: "hiqma-weds-akeem.vercel.app", cat: "Wedding", desc: "Elegant wedding website with their story, event details, gallery and RSVP — romantic and refined.", tech: ["Next.js", "Framer"], grad: "linear-gradient(135deg,#a14b5f,#e6a0a8)" },
+      { name: "Want yours here?", url: "https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business.", host: "your-business.com", cat: "Your project", desc: "Your business could be the next one on this wall. Let's build a site that makes you proud and brings in customers.", tech: ["Let's talk"], grad: "linear-gradient(135deg,#E0532A,#A83617)", cta: true }
+    ];
+
+    const grid = document.getElementById('workGrid');
+    const allCards = PROJECTS.slice(0, -1); // real projects
+    const ctaProject = PROJECTS[PROJECTS.length - 1]; // "Want yours here?"
+    grid.innerHTML = allCards.map((p, i) => `
+  <article class="work-card rv">
+    <div class="browser">
+      <div class="dots"><i></i><i></i><i></i></div>
+      <div class="addr">${p.host}</div>
+    </div>
+    <div class="shot">
+      <div class="grad" style="background:${p.grad}"></div>
+      <image-slot id="work-${i}" placeholder="${p.name.replace(/&amp;/g, '&')} — drop screenshot" style="width:100%;height:100%"></image-slot>
+      <div class="caption">
+        <div class="gtag">${p.cat}</div>
+        <div class="gname">${p.name}</div>
+      </div>
+    </div>
+    <div class="work-meta">
+      <div class="row">
+        <span class="cat">${p.cat}</span>
+      </div>
+      <h3>${p.name}</h3>
+      <p>${p.desc}</p>
+      <div class="work-foot">
+        <div class="tech">${p.tech.map(t => `<span>${t}</span>`).join('')}</div>
+        <a class="visit" href="${p.url}" target="_blank" rel="noopener">${p.cta ? 'Start now' : 'Visit live'} <span class="ic">↗</span></a>
+      </div>
+    </div>
+  </article>
+`).join('') + `
+  <article class="work-card work-cta rv" style="grid-column:1/-1">
+    <div class="shot" style="aspect-ratio:unset;min-height:260px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a0f0a 0%,#3d1f0d 50%,#e05320 100%);position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(224,83,32,.45),transparent 65%);pointer-events:none"></div>
+      <div style="text-align:center;position:relative;z-index:2;padding:40px 24px">
+        <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:6px 16px;font-size:12px;font-weight:700;color:#fff;letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px">Your Project</div>
+        <h3 style="font-family:'Bricolage Grotesque';font-size:clamp(32px,5vw,56px);font-weight:800;color:#fff;letter-spacing:-.04em;line-height:1;margin-bottom:14px">Want yours here?</h3>
+        <p style="color:rgba(255,255,255,.72);font-size:clamp(15px,2vw,18px);max-width:520px;margin:0 auto 28px">Your business could be the next one on this wall. Let’s build a site that makes you proud and brings in customers.</p>
+        <a href="https://wa.me/2348057972435?text=Hi%20David%2C%20I%20want%20a%20website%20for%20my%20business." target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#fff;font-weight:700;font-size:15px;padding:14px 28px;border-radius:999px;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.4)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.768-.989zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg>
+          Start now — WhatsApp me
+        </a>
+      </div>
+    </div>
+  </article>
+`;
+
+    /* ───── promo bar dismiss ───── */
+    const promoX = document.getElementById('promoX');
+    if (promoX) {
+      try { if (localStorage.getItem('promo-off-v2') === '1') document.body.classList.add('promo-off'); } catch (e) { }
+      promoX.addEventListener('click', () => {
+        document.body.classList.add('promo-off');
+        try { localStorage.setItem('promo-off-v2', '1'); } catch (e) { }
+      });
+    }
+
+    /* ───── nav scroll ───── */
+    const nav = document.getElementById('nav');
+    const heroEl = document.getElementById('hero');
+    const updateNav = () => {
+      const threshold = heroEl ? heroEl.offsetHeight * 0.55 : 80;
+      nav.classList.toggle('scrolled', scrollY > threshold);
+    };
+    addEventListener('scroll', updateNav, { passive: true });
+    updateNav();
+
+    /* ───── mobile menu ───── */
+    const ham = document.getElementById('ham');
+    const mnav = document.getElementById('mnav');
+    const toggle = (o) => { ham.classList.toggle('open', o); mnav.classList.toggle('open', o); document.body.classList.toggle('menu-open', o); document.body.style.overflow = o ? 'hidden' : ''; };
+    ham.addEventListener('click', () => toggle(!mnav.classList.contains('open')));
+    document.querySelectorAll('.mlink').forEach(a => a.addEventListener('click', () => toggle(false)));
+
+    /* ───── GSAP ───── */
+    window.addEventListener('load', () => {
+      if (!window.gsap) return;
+      gsap.registerPlugin(ScrollTrigger);
+
+      // hero entrance
+      const heroEls = document.querySelectorAll('#hero .rv');
+      gsap.to(heroEls, { opacity: 1, y: 0, duration: .9, ease: 'power3.out', stagger: .09, delay: .1 });
+
+      // generic reveals
+      gsap.utils.toArray('.rv').forEach(el => {
+        if (el.closest('#hero')) return;
+        gsap.fromTo(el, { opacity: 0, y: 34 }, {
+          opacity: 1, y: 0, duration: .85, ease: 'power3.out',
+          scrollTrigger: { trigger: el, start: 'top 90%' }
+        });
+      });
+
+      // counters
+      document.querySelectorAll('.stat .n').forEach(n => {
+        const cn = n.querySelector('.cn');
+        const target = +n.dataset.count;
+        const o = { v: 0 };
+        ScrollTrigger.create({
+          trigger: n, start: 'top 92%', once: true, onEnter: () =>
+            gsap.to(o, { v: target, duration: 1.6, ease: 'power2.out', onUpdate: () => cn.textContent = Math.round(o.v) })
+        });
+      });
+
+      // no hero collage parallax needed
+    });
+  </script>
+</body>
+
+</html>
