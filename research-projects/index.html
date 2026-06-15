@@ -380,6 +380,75 @@
       background: var(--accent)
     }
 
+    /* ───── OVERVIEW ───── */
+    .rp-overview {
+      padding: 36px 0 8px;
+    }
+
+    .rp-ov-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 48px;
+      align-items: start;
+      padding: 44px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    @media(max-width:880px) {
+      .rp-ov-grid {
+        grid-template-columns: 1fr;
+        gap: 36px
+      }
+    }
+
+    .rp-ov-intro h2 {
+      font-size: clamp(26px, 4vw, 40px);
+      line-height: 1.08;
+      letter-spacing: -.02em;
+      margin: 14px 0 18px;
+    }
+
+    .rp-ov-intro h2 .serif {
+      color: var(--accent)
+    }
+
+    .rp-ov-intro p {
+      color: var(--ink-soft);
+      font-size: 16.5px;
+      line-height: 1.65;
+      margin-top: 14px;
+    }
+
+    .rp-ov-side {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .rp-ov-stat {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--r);
+      padding: 22px 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .rp-ov-stat .n {
+      font-family: 'Bricolage Grotesque';
+      font-weight: 700;
+      font-size: 34px;
+      letter-spacing: -.02em;
+      color: var(--accent);
+      line-height: 1;
+    }
+
+    .rp-ov-stat .l {
+      color: var(--muted);
+      font-size: 14.5px;
+      margin-top: 8px;
+    }
+
     /* ───── RESEARCH GRID ───── */
     section.block {
       padding: 56px 0 110px
@@ -818,15 +887,53 @@
       <div class="glow b"></div>
       <div class="wrap">
         <span class="eyebrow rv">Research projects</span>
-        <h1 class="rv">Applied research in <span class="serif">security &amp; AI.</span></h1>
-        <p class="lead rv">A selection of research-driven projects spanning cloud security, system integrity,
-          machine learning for intrusion detection, and AI-powered education — each designed, built and documented
-          end-to-end.</p>
+        <h1 class="rv">Applied <span class="serif">research.</span></h1>
+        <p class="lead rv">A selection of research-driven projects, each taken from a clear problem statement
+          through to a working, documented solution. The work below spans cloud security, system integrity,
+          machine learning and applied artificial intelligence — but every project shares the same goal: turning
+          a real-world challenge into something practical, measurable and built to be used.</p>
+        <p class="lead rv">Each project was designed, implemented and tested end-to-end, with the full write-up
+          available to download as a Word document. They reflect how I approach a problem: study it carefully,
+          design a focused solution, build it, and prove that it works.</p>
         <div class="hero-meta rv">
           <span><span class="dot"></span><b>4</b>&nbsp;research projects</span>
           <span><span class="dot"></span>Cloud &amp; host security</span>
           <span><span class="dot"></span>Machine learning</span>
           <span><span class="dot"></span>Applied AI</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── OVERVIEW ───────── -->
+    <section class="rp-overview">
+      <div class="wrap">
+        <div class="rp-ov-grid">
+          <div class="rp-ov-intro rv">
+            <span class="eyebrow">What this is</span>
+            <h2>Real problems, <span class="serif">solved end-to-end.</span></h2>
+            <p>Each piece of work started as a question worth answering and ended as something that actually runs.
+              Two of the projects focus on defensive security — keeping cloud environments correctly configured and
+              detecting tampering on critical files. A third uses machine learning to spot intrusions in network
+              traffic, and the fourth brings large-language-model technology into education as an always-available
+              tutor. Together they show a steady thread: understand the need, design a focused approach, build it,
+              and measure whether it works.</p>
+            <p>Every project below comes with a full written report. Click <strong>Download project</strong> on any
+              card to read the complete methodology, design decisions, implementation details and results.</p>
+          </div>
+          <div class="rp-ov-side rv">
+            <div class="rp-ov-stat">
+              <div class="n">4</div>
+              <div class="l">Complete research projects, each fully documented</div>
+            </div>
+            <div class="rp-ov-stat">
+              <div class="n">2</div>
+              <div class="l">Defensive security tools for cloud and host environments</div>
+            </div>
+            <div class="rp-ov-stat">
+              <div class="n">100%</div>
+              <div class="l">Designed, built and tested end-to-end</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
